@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="ENTRO — производитель дизайнерских межкомнатных дверей. Коллекции, производство и сотрудничество.">
+<meta name="theme-color" content="#0b1e24">
+<title>ENTRO — дизайнерские межкомнатные двери</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+<div class="intro" aria-hidden="true"><img src="assets/wordmark.png" alt=""></div>
+<header class="header" id="home">
+  <div class="shell header-inner">
+    <button class="icon menu" type="button" aria-label="Меню" aria-expanded="false" aria-controls="nav"><span aria-hidden="true">☰</span></button>
+    <nav id="nav" aria-label="Главное меню">
+      <a href="#home" aria-current="page">Главная</a><a href="#catalog">Каталог</a><a href="#company">Компания</a><a href="#dealer">Стать дилером</a><a href="#contacts">Контакты</a>
+    </nav>
+    <a class="brand" href="#home" aria-label="ENTRO — главная"><img src="assets/wordmark.png" alt="ENTRO" width="116" height="22"></a>
+    <div class="utilities">
+      <button class="icon" type="button" data-dialog="search" aria-label="Поиск"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="5.8"/><path d="m15 15 5 5"/></svg></button>
+      <button class="icon" type="button" data-dialog="account" aria-label="Личный кабинет"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.1"/><path d="M5.5 20v-1.4a6.5 5 0 0 1 13 0V20"/></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <video class="hero-video" src="assets/hero-smooth.mp4" poster="assets/hero-poster.jpg" loop muted playsinline preload="metadata" aria-hidden="true"></video>
+    <div class="shell hero-inner">
+      <div class="hero-copy">
+        <h1 id="hero-title">Межкомнатные<br>двери ENTRO</h1>
+        <a class="hero-link" href="#catalog">Смотреть коллекции <span aria-hidden="true">↘</span></a>
+      </div>
+      <button class="icon motion-control" type="button" aria-label="Воспроизвести видео" hidden><span aria-hidden="true">▶</span></button>
+    </div>
+  </section>
+  <section class="mission shell" id="company">
+    <h2 class="label">Миссия компании</h2>
+    <p>С 2022 года компания ENTRO создает межкомнатные двери с эксклюзивным и индивидуальным дизайном, уделяя особое внимание стилю, и делая акцент на деталях. Результат такого подхода – неповторимые продукты, которые создает команда ENTRO.</p>
+  </section>
+  <section class="collections" id="catalog" aria-labelledby="collections-title">
+    <div class="shell section-header"><h2 id="collections-title">Коллекции</h2><a class="underlink" href="https://entro-design.ru/catalog/mezhkomnatnye-dveri">Весь каталог ↗</a></div>
+    <div class="collection-grid shell">
+      <a class="collection" href="https://entro-design.ru/aria"><img src="assets/aria.jpg" alt="" loading="lazy"><div><h3>Aria</h3><p>Классический багет в современном исполнении</p></div><span aria-hidden="true">↗</span></a>
+      <a class="collection" href="https://entro-design.ru/zero"><img src="assets/zero.jpg" alt="" loading="lazy"><div><h3>Zero</h3><p>Плавные линии и геометрический рисунок</p></div><span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+  <section class="showcase" aria-labelledby="showcase-title">
+    <div class="shell section-header"><h2 id="showcase-title">Витрина дверей</h2></div>
+    <div class="shell showcase-stage" aria-label="Витрина коллекций">
+      <button class="step" type="button" data-step="-1" aria-label="Предыдущая дверь">←</button>
+      <div class="drum">
+        <div class="drum-wheel">
+          <img src="assets/door-aria.jpg" alt="Дверь Aria"><img src="assets/door-zero.jpg" alt="Дверь Zero"><img src="assets/door-magic.jpg" alt="Дверь Magic"><img src="assets/door-sky.jpg" alt="Дверь Sky"><img src="assets/door-galant.jpg" alt="Дверь Galant">
+        </div>
+      </div>
+      <button class="step" type="button" data-step="1" aria-label="Следующая дверь">→</button>
+    </div>
+    <div class="shell showcase-meta" aria-live="polite"><a id="active-door" class="underlink" href="https://entro-design.ru/aria">Aria ↗</a><span id="door-count">01 / 05</span></div>
+  </section>
+  <section class="dealer shell" id="dealer">
+    <h2>Стать дилером</h2>
+    <div><p>Расскажите о вашей компании и городе, чтобы обсудить сотрудничество с ENTRO.</p><a class="hero-link" href="mailto:Zakaz@entro-design.ru?subject=Дилерство%20ENTRO">Написать в отдел продаж ↗</a></div>
+  </section>
+  <aside class="demo"><div class="shell"><strong>Демо-версия</strong><p>Это неполная версия сайта. Удалю этот текст по первой просьбе.</p></div></aside>
+  <section class="shell contacts" id="contacts">
+    <h2>Контакты</h2>
+    <div class="contact-grid">
+      <address><strong>Производство и центральный офис</strong><p>Чувашская Республика, Новочебоксарск<br>Промышленная улица, 52</p><a href="tel:+79877350040">+7 987 735-00-40</a><br><a href="tel:+79199727942">+7 919 972-79-42</a><br><a href="mailto:Zakaz@entro-design.ru">Zakaz@entro-design.ru</a></address>
+      <address><strong>Московский филиал</strong><p>Москва, пос. Мосрентген<br>владение 33Г, строение 7</p><a href="tel:+74954242171">+7 495 424-21-71</a><br><a href="https://entro-design.moscow">Сайт филиала ↗</a></address>
+    </div>
+    <div class="map"><iframe loading="lazy" title="Производство ENTRO на карте" src="https://yandex.ru/map-widget/v1/?text=Новочебоксарск%2C%20Промышленная%20улица%2C%2052&amp;z=16"></iframe><a class="underlink" href="https://2gis.ru/cheboksary/search/Новочебоксарск%2C%20Промышленная%20улица%2C%2052">Промышленная, 52 в 2ГИС ↗</a></div>
+  </section>
+</main>
+<footer class="shell footer"><a href="#home" aria-label="ENTRO — наверх"><img src="assets/wordmark.png" alt="ENTRO" width="100" height="19"></a><span>ООО «ЭНТРО»</span><a href="https://entro-design.ru/kontakty">Действующий сайт ↗</a></footer>
+<dialog id="search" aria-labelledby="search-title"><div class="dialog-top"><h2 id="search-title">Поиск по каталогу</h2><form method="dialog"><button class="step" aria-label="Закрыть">×</button></form></div><label class="sr-only" for="query">Название коллекции</label><input id="query" type="search" placeholder="Например, Aria или Ария" autocomplete="off"><ul id="results"></ul><p id="empty" hidden>Коллекции не найдены.</p></dialog>
+<dialog id="account" aria-labelledby="account-title"><div class="dialog-top"><h2 id="account-title">Личный кабинет</h2><form method="dialog"><button class="step" aria-label="Закрыть">×</button></form></div><p>Вход в личный кабинет пока недоступен. По вопросам сотрудничества обращайтесь в отдел продаж.</p><a class="underlink" href="mailto:Zakaz@entro-design.ru">Zakaz@entro-design.ru ↗</a></dialog>
+</body>
+</html>
